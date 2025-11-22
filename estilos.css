@@ -1,0 +1,35 @@
+/* Estilos para la tabla generada por Tableizer */
+
+table {
+    /* 1. Estilos de la tabla contenedora */
+    border-collapse: collapse; /* Colapsa bordes dobles */
+    width: 70%; /* Ancho de la tabla */
+    margin: 20px auto; /* Centra la tabla y le da espacio vertical */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    /* 2. Estilos de las celdas (encabezado y datos) */
+    border: 1px solid #ddd; /* Borde gris claro */
+    padding: 12px 15px; /* Espacio interno */
+    text-align: left;
+}
+
+thead th {
+    /* 3. Estilos específicos para los encabezados */
+    background-color: #007bff; /* Azul vibrante */
+    color: white;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    /* 4. Estilo para filas pares (efecto cebra o "striped") */
+    background-color: #f2f2f2; /* Gris muy claro */
+}
+
+tbody tr:hover {
+    /* 5. Estilo cuando el cursor pasa por encima */
+    background-color: #e9ecef; /* Resalta la fila */
+    cursor: pointer;
+}
